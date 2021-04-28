@@ -28,7 +28,6 @@ void decrypt(char *inputFileame, char *outputFilename)
     outfile = fopen(outputFilename, "w");
     while(fscanf(infile, "%s", msg) != EOF)
     {
-        printf("%s\n", msg);
         for(int i=0; i < strlen(msg); i++)
         {
             msg[i] -= 3;
