@@ -1,5 +1,5 @@
 # Sample C Project: Encryption Library
-This is an example project to demonstrate the creation of a static C library and subsequently using it in Makefile to build C projects. The `src` directory contains source code for
+This is an example project to demonstrate the creation of a static C library and subsequently using it in Makefile for a sample C project. The `src` directory contains source code for
 a sample encryption library. These are compiled into `libcodex.a` archive and stored in `lib` directory. 
 
 ### Generating libcodex 
